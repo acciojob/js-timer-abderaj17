@@ -1,7 +1,7 @@
 // write js code here if required
 const timer = document.getElementById('timer');
 
-function timerDisplay()
+function timerDisplay(){
 	let date = new Date();
 	let day = date.getDate();
 	let month = date.getMonth() + 1;
